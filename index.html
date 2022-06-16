@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>What is your Gender?</title>
+		<link rel="stylesheet" href="stylesheet.css" />
+	</head>
+
+	<body id="main">
+		<div id="flag">
+			<div class="stripe">
+				<p id="title">My Gender is...</p>
+			</div>
+			<div class="stripe">
+				<form action="" method="get">
+					<input type="radio" name="gender" value="Male" disabled="true">
+					<label for="html" id="male">Male</label><br>
+				</form>
+			</div>
+			<div class="stripe">
+				<form action="" method="get">
+					<input type="radio" name="gender" value="Female" disabled="true">
+					<label for="css" id="female" >Female</label><br>
+				</form>
+			</div>
+			<div class="stripe">
+				<form action="" method="get">
+					<input type="radio" name="gender" value="other">
+					<select name=gender id=other_dropdown>
+						<option value=blank>(Select One)</option>
+						<option value=other>Other</option>
+						<option value=all>All of the above</option>
+						<option value=none>None of the above</option>
+						<option value=what>???</option>
+						<option value=na>N/A</option>
+					</select>
+				</form>
+			</div>
+		</div>
+
+		<div id="nav">
+			<form class=buttons action="what.html" target="_blank">
+				<input class=buttons type="submit" value="What is this?" />
+			</form>
+			<form class=buttons action="who.html" target="_blank">
+				<input class=buttons type="submit" value="Who are you?" />
+			</form>
+			<form class=buttons action="space.html" target="_blank">
+				<input class=buttons type="submit" value="Why are we in space?" />
+			</form>
+			<form class=buttons action="flags.html" target="_blank">
+				<input class=buttons type="submit" value="What do all these flags mean?" />
+			</form>
+		</div>
+	</body>
+
+	<script type="text/javascript" src="js/js-code.js" ></script>
+</html>
