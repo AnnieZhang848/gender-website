@@ -1,0 +1,1 @@
+Equal parts website and art project, the intents and messages behind the contents of the website are described pretty throughly on the website itself. However, for anyone interested in the code behind the website, this is the place to be.
